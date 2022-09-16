@@ -20,6 +20,7 @@ function Project({
              style={{lineHeight: 0}}>
             <div className='shadow-xl inline-block'>
                 <Image src={image} width={500}
+                       alt={title}
                        objectFit={'cover'} objectPosition={'top left'}
                        height={300}/>
             </div>
