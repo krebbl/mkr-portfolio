@@ -82,7 +82,7 @@ export default function Projects() {
                      companyLink={'https://ulysses.app'}
                      demoLink={'https://styles.ulysses.app'}
                      text={'My main project at Ulysses (the company of the famous writing app for Mac and iOs) was to migrate the legacy platform for sharing export styles and editor themes to a new architecture based on PostgreSQL and Ruby On Rails. To make the hunt for new themes and styles as convenient as possible, the system uses Solr to provide a facet oriented full text search. Another big part of this project was to create a CSS style guide based on Bootstrap to lay out the foundation for other company websites and services.'}
-                     creationYear={2017}
+                     creationYear={"2017 - 2018"}
                      technologies={[
                          "Ruby On Rails", "PostgreSQL", "Solr", "Bootstrap"
                      ]}
