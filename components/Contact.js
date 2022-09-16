@@ -8,7 +8,7 @@ export default function Contact() {
                     me on LinkedIn.</h3>
             </div>
             <div>
-                <a href={"https://www.linkedin.com/in/marcus-krejpowicz-33a72038"} className="px-6 py-3 text-lg font-semibold text-sm bg-[#4098D1] text-white rounded-full shadow-sm">My LinkedIn</a>
+                <a href={"https://www.linkedin.com/in/marcus-krejpowicz-33a72038"} className="px-6 py-3 text-lg font-semibold text-lg bg-[#4098D1] text-white rounded-full shadow-sm">My LinkedIn</a>
             </div>
         </div>
     </div>)
