@@ -32,8 +32,8 @@ export default function AboutMe() {
                 </p>
                 <ul className='columns-2 text-left mx-auto max-w-[420px] md:max-w-none'>
                     {technologies.map((name) => (
-                        <li key={name} className='leading-relaxed flex items-center'>
-                            <FontAwesomeIcon icon={faCircleCheck} color={"#C91041"}/>
+                        <li key={name} className='leading-relaxed flex items-start'>
+                            <FontAwesomeIcon icon={faCircleCheck} color={"#C91041"} className="mt-1"/>
                             <span className="ml-2">{name}</span>
                         </li>
                     ))}

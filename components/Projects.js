@@ -42,9 +42,9 @@ function Project({
             </p> : null}
             <ul className='columns-2 text-left mx-auto max-w-[420px] md:max-w-none'>
                 {technologies.map((name) => (
-                    <li key={name} className='leading-relaxed flex items-center'>
+                    <li key={name} className='leading-relaxed flex items-start'>
                         <FontAwesomeIcon icon={faCircleCheck} color={"#C91041"}
-                                         className={"mr-2"}/>
+                                         className={"mr-2 mt-1"}/>
                         {name}
                     </li>
                 ))}
