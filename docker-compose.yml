@@ -2,7 +2,6 @@ version: "3.8"
 services:
   homepage:
     build:
-      dockerfile: ./Dockerfile
       context: .
     networks:
       - nginx # add the nginx network
