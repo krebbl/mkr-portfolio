@@ -3,6 +3,7 @@ services:
   homepage:
     build:
       dockerfile: ./Dockerfile
+      context: .
     networks:
       - nginx # add the nginx network
     expose:
