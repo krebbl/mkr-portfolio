@@ -90,7 +90,7 @@ export default function Projects() {
             <Project title={"Interactive Diagram Editor"} company="Vizzlo"
                      companyLink={"https://www.vizzlo.com"}
                      demoLink={'https://www.vizzlo.com'}
-                     creationYear={"2015 - 2017"}
+                     creationYear={"2016 - 2017"}
                      text={"At Vizzlo I worked as lead frontend developer implementing the foundation for the interactive SVG-based chart editor which included a library of drag and drop components and an inline text editing system."}
                      technologies={[
                          "React", "Go", "SASS", "d3.js"
@@ -102,7 +102,7 @@ export default function Projects() {
                          "and HTML with our self developed JS frontend framework (rAppid.js) and implemented a whole new experience for mobile users. Although the original web application is not live anymore the code base is still used in the current T-Shirt configurator at Spreadshirt."}
                      company={"Spreadgroup"} companyLink={"https://spreadshirt.de"}
                      demoLink={'https://www.spreadshirt.de/selbst-gestalten'}
-                     creationYear={2013}
+                     creationYear={"2013 - 2016"}
                      image={"/projects/tablomat.png"}
                      technologies={["Javascript", "SASS",
                          "rAppid.js"
