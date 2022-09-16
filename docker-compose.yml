@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  homepage:
+    build:
+      dockerfile: ./Dockerfile
+    networks:
+      - nginx # add the nginx network
+    expose:
+      - 8080
+    restart: unless-stopped
+    environment:
+      VIRTUAL_HOST: $DOMAIN # set the virtual host
+      LETSENCRYPT_HOST: $DOMAIN # set the letsencrypt host
+    # ...
+    # under networks
+networks:
+  # add the nginx network
+  nginx:
+    external: true
+    name: nginx-proxy
