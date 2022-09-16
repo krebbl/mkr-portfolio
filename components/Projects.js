@@ -89,7 +89,7 @@ export default function Projects() {
                      image={"/projects/ulysses_styles.png"}/>
             <Project title={"Interactive Diagram Editor"} company="Vizzlo"
                      companyLink={"https://www.vizzlo.com"}
-                     creationYear={2015}
+                     creationYear={"2015 - 2017"}
                      text={"At Vizzlo I worked as lead frontend developer implementing the foundation for the interactive SVG-based chart editor which included a library of drag and drop components and an inline text editing system."}
                      technologies={[
                          "React", "Go", "SASS", "d3.js"
