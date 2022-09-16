@@ -9,7 +9,7 @@ export default function Navbar() {
     return <div className="fixed w-full h-20 z-10 bg-white">
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
             <div className="py-3">
-                <Image src="/../public/logo.png" width={100} height={60}/>
+                <Image src="/logo.png" width={100} height={60}/>
             </div>
             <div>
                 <ul className="hidden md:flex">

@@ -10,7 +10,7 @@ export default function AboutMe() {
             <div className={`text-center`}
                  style={{lineHeight: 0}}>
                 <div className='shadow inline-block rounded-full overflow-hidden	'>
-                    <Image src={'/../public/me.png'} width={320}
+                    <Image src={'/me.png'} width={320}
                            objectFit={'cover'} objectPosition={'top center'}
                            height={320}/>
                 </div>

@@ -69,7 +69,7 @@ export default function Projects() {
             <Project title={"Health-Care Monitoring Platform"}
                      company={"ProCarement"}
                      companyLink={"https://procarement.com"}
-                     image={"/../public/projects/procarement.png"}
+                     image={"/projects/procarement.png"}
                      text={'Currently, I am working at ProCarement as Head of Development on the development of a remote health care system for monitoring chronically ill patients. The system consists of a web portal based on RubyOnRails and a mobile application written with Ionic. '
                          + 'My main task in this project is to create the software architecture, specify clean development processes and to lead the development of the backend / web portal.'}
                      creationYear={2018}
@@ -86,7 +86,7 @@ export default function Projects() {
                      technologies={[
                          "Ruby On Rails", "PostgreSQL", "Solr", "Bootstrap"
                      ]}
-                     image={"/../public/projects/ulysses_styles.png"}/>
+                     image={"/projects/ulysses_styles.png"}/>
             <Project title={"Interactive Diagram Editor"} company="Vizzlo"
                      companyLink={"https://www.vizzlo.com"}
                      creationYear={2015}
@@ -94,7 +94,7 @@ export default function Projects() {
                      technologies={[
                          "React", "Go", "SASS", "d3.js"
                      ]}
-                     image={"/../public/projects/vizzlo.png"}/>
+                     image={"/projects/vizzlo.png"}/>
             <Project title={"T-Shirt Configurator / Designer"}
                      reverse={true}
                      text={"At Spreadgroup a colleague and I migrated the existing T-Shirt Configurator written for Adobe Flash to Javascript " +
@@ -102,7 +102,7 @@ export default function Projects() {
                      company={"Spreadgroup"} companyLink={"https://spreadshirt.de"}
                      demoLink={'https://www.spreadshirt.de/selbst-gestalten'}
                      creationYear={2013}
-                     image={"/../public/projects/tablomat.png"}
+                     image={"/projects/tablomat.png"}
                      technologies={["Javascript", "SASS",
                          "rAppid.js"
                      ]}/>
