@@ -72,7 +72,7 @@ export default function Projects() {
                      image={"/projects/procarement.png"}
                      text={'Currently, I am working at ProCarement as Head of Development on the development of a remote health care system for monitoring chronically ill patients. The system consists of a web portal based on Ruby On Rails and a mobile application written with Ionic. '
                          + 'My main task in this project is to create the software architecture, specify clean development processes and to lead the development of the backend / web portal.'}
-                     creationYear={2018}
+                     creationYear={"since 2018"}
                      technologies={[
                          "Ruby On Rails", "PostgreSQL", "Redis", "FHIR", "Javascript"
                      ]}/>
