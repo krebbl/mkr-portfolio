@@ -1,4 +1,4 @@
-# Homepage of Marcus Krejpowicz
+# Portfolio page of Marcus Krejpowicz
 
 ## Development
 
