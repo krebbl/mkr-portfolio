@@ -18,11 +18,6 @@ export default function Home() {
             <hr/>
             <Contact />
             <hr/>
-            <div>
-                <p className="font-sm 600">
-                    Imprint: Marcus Krejpowicz | Rossmarktstraße 29 | 04177 Leipzig | marcus.krejpowicz@gmail.com
-                </p>
-            </div>
         </Layout>
     )
 }

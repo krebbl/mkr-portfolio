@@ -46,8 +46,11 @@ export default function Layout({children}) {
             </Head>
             <Navbar/>
             {children}
-            <footer className={styles.footer}>
-
+            <footer className="max-w-[1024px] w-full mx-auto py-10 px-2">
+                <p className="font-sm 600">
+                    Imprint: Marcus Krejpowicz | Rossmarktstraße 29 | 04177 Leipzig |
+                    marcus.krejpowicz@gmail.com
+                </p>
             </footer>
         </div>
     )
