@@ -1,7 +1,7 @@
 export default function Contact() {
     return (<div className="max-w-[1024px] w-full mx-auto py-10 px-2">
         <a name={"contact"} />
-        <div className={`full-w mx-auto py-20 grid grid-cols-2 gap-10 items-center`}>
+        <div className={`full-w mx-auto py-20 grid grid-cols-2 gap-10 items-center text-center`}>
             <div>
                 <h3 className='text-gray-700'>Want to build <span
                     className='text-[#C91041]'>cool</span> stuff with me? Hit
