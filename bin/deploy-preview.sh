@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
-git remote add preview ssh://docco@78.46.202.215:2222/git/portfolio-preview
+git remote add preview ssh://docco@marcuskrejpowicz.com:2222/git/portfolio-preview || true
 
-git push origin preview
+git push preview main
