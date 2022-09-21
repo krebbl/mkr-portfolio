@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutMe() {
     const technologies = ['Javascript / Typescript', 'React', 'Ruby (On Rails)', 'PostgreSQL']
-    return (<div className="max-w-[1240px] w-full mx-auto py-10 px-2">
+    return (<div className="max-w-[1240px] w-full mx-auto py-10 px-4">
         <a name="about"/>
         <div className={`full-w mx-auto py-20 md:grid md:grid-cols-2 gap-10`}>
             <div className={`text-center`}

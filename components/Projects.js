@@ -55,7 +55,7 @@ function Project({
 
 export default function Projects() {
     return (<div
-        className="max-w-[1240px] w-full mx-auto px-2 py-20">
+        className="max-w-[1240px] w-full mx-auto px-4 py-20">
         <a name="projects"/>
 
         <div className='text-center'>
